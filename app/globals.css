@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Roman Marble Palette */
+  --color-marble-50: #f8f6f2;
+  --color-marble-100: #f0ece3;
+  --color-marble-200: #e3dccb;
+  --color-marble-300: #d1c5a8;
+  --color-marble-400: #b8a878;
+  --color-marble-default: #ede7db;
+  --color-marble-900: #2a2620;
+
+  /* Imperial Porphyry (Deep Purple-Red Stone) */
+  --color-porphyry-default: #5c1a1a;
+  --color-porphyry-700: #4a1414;
+  --color-porphyry-900: #2e0d0d;
+
+  /* Imperial Gold */
+  --color-gold-100: #f3e4b0;
+  --color-gold-300: #d9b84a;
+  --color-gold-500: #c9a227;
+  --color-gold-default: #c9a227;
+  --color-gold-700: #96771a;
+  --color-gold-900: #5e4a10;
+
+  /* Roman Bronze */
+  --color-bronze-300: #a67c52;
+  --color-bronze-500: #8c6239;
+  --color-bronze-default: #8c6239;
+  --color-bronze-700: #654726;
+  --color-bronze-900: #3d2b17;
+
+  /* Warm Ink for Text */
+  --color-ink-default: #231f1a;
+  --color-ink-700: #3a332a;
+
+  /* Laurel Green */
+  --color-laurel-300: #5a7a5a;
+  --color-laurel-default: #3f5c3f;
+  --color-laurel-700: #2b402b;
+}
+
+/* Base Body Styling with Fixed Marble Texture Background */
+body {
+  background-color: var(--color-marble-100);
+  color: var(--color-ink-default);
+  font-family: var(--font-body), 'Crimson Pro', Georgia, serif;
+  background-image: 
+    /* Subtle noise/grain simulation */
+    radial-gradient(circle, rgba(42,38,32,0.015) 1px, transparent 1px),
+    /* Soft marble veining 1 */
+    repeating-linear-gradient(35deg, rgba(42,38,32,0.01) 0px, rgba(42,38,32,0.01) 1px, transparent 1px, transparent 12px),
+    /* Soft marble veining 2 */
+    repeating-linear-gradient(-55deg, rgba(42,38,32,0.008) 0px, rgba(42,38,32,0.008) 2px, transparent 2px, transparent 18px),
+    /* Broad color variations for stone depth */
+    radial-gradient(circle at 20% 30%, rgba(209,197,168,0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(184,168,120,0.1) 0%, transparent 60%);
+  background-size: 12px 12px, 120px 120px, 180px 180px, 100% 100%, 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), 'Cormorant Garamond', Georgia, serif;
+}
+
+/* ==========================================================================
+   Marble Surface — layered gradient background simulating a polished
+   marble slab, used for cards, panels, and content containers.
+   ========================================================================== */
+.marble-surface {
+  background-color: var(--color-marble-50);
+  background-image:
+    repeating-linear-gradient(62deg, rgba(184,168,120,0.10) 0px, rgba(184,168,120,0.10) 1px, transparent 1px, transparent 22px),
+    repeating-linear-gradient(-28deg, rgba(92,26,26,0.04) 0px, rgba(92,26,26,0.04) 1px, transparent 1px, transparent 40px),
+    linear-gradient(135deg, var(--color-marble-50) 0%, var(--color-marble-200) 45%, var(--color-marble-100) 100%);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.6) inset, 0 8px 24px rgba(42,38,32,0.12);
+}
+
+/* ==========================================================================
+   Porphyry Surface — dark imperial stone gradient, for hero/dramatic
+   sections. Porphyry was reserved for emperors in antiquity.
+   ========================================================================== */
+.porphyry-surface {
+  background-color: var(--color-porphyry-900);
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(201,162,39,0.10) 0%, transparent 55%),
+    repeating-linear-gradient(48deg, rgba(0,0,0,0.12) 0px, rgba(0,0,0,0.12) 1px, transparent 1px, transparent 16px),
+    linear-gradient(160deg, var(--color-porphyry-700) 0%, var(--color-porphyry-900) 70%);
+  color: var(--color-marble-100);
+}
+
+/* ==========================================================================
+   Inscription Text — engraved-look lettering evoking carved Roman stone
+   inscriptions (e.g. SPQR monuments).
+   ========================================================================== */
+.inscription-text {
+  font-family: var(--font-inscription), 'Cinzel', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.35),
+    0 -1px 1px rgba(0,0,0,0.45),
+    0 2px 3px rgba(0,0,0,0.25);
+}
+
+/* ==========================================================================
+   Gold Foil Text — shimmering gold gradient text for emphasis / titles.
+   ========================================================================== */
+.gold-foil-text {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-gold-700) 0%,
+    var(--color-gold-300) 25%,
+    var(--color-gold-100) 50%,
+    var(--color-gold-300) 75%,
+    var(--color-gold-700) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-foil-text.animate-shimmer {
+  animation: shimmer 3s infinite linear;
+}
+
+/* ==========================================================================
+   Column Divider — a decorative horizontal divider evoking a colonnade,
+   used between major page sections.
+   ========================================================================== */
+.column-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 1.5rem 0;
+}
+
+.column-divider::before,
+.column-divider::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-bronze-500) 50%, transparent);
+  opacity: 0.6;
+}
+
+.column-divider .column-divider-ornament {
+  width: 0.65rem;
+  height: 0.65rem;
+  background: linear-gradient(135deg, var(--color-gold-300), var(--color-gold-700));
+  transform: rotate(45deg);
+  box-shadow: 0 0 8px rgba(201,162,39,0.4);
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Laurel Divider — a lighter section break with muted laurel-green accents.
+   ========================================================================== */
+.laurel-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.laurel-divider::before,
+.laurel-divider::after {
+  content: "";
+  flex: 1;
+  max-width: 6rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-laurel-300));
+}
+
+.laurel-divider::after {
+  background: linear-gradient(90deg, var(--color-laurel-300), transparent);
+}
+
+.laurel-divider .laurel-divider-leaf {
+  width: 0.5rem;
+  height: 0.85rem;
+  background: var(--color-laurel-default);
+  border-radius: 0 100% 0 100%;
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Selection & Scrollbar Styling
+   ========================================================================== */
+::selection {
+  background-color: var(--color-gold-100);
+  color: var(--color-ink-default);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-marble-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-bronze-500), var(--color-gold-700));
+  border-radius: 6px;
+  border: 2px solid var(--color-marble-100);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--color-gold-500), var(--color-bronze-700));
+}

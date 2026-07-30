@@ -1,0 +1,610 @@
+[
+  {
+    "slug": "roma-nin-kurulusu-ve-efsanesi",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Roma'nın Kuruluşu ve Efsanesi",
+    "category": "Kuruluş Dönemi",
+    "short_desc": "Romulus ve Remus kardeşlerin efsanesinden M.Ö. 753 yılındaki kuruluşa uzanan süreç.",
+    "era_tag": "Krallık"
+  },
+  {
+    "slug": "roma-kralligi",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Roma Krallığı",
+    "category": "Kuruluş Dönemi",
+    "short_desc": "Yedi efsanevi kralın yönetiminde Roma'nın ilk siyasi ve toplumsal yapısının oluşumu.",
+    "era_tag": "Krallık"
+  },
+  {
+    "slug": "cumhuriyetin-kurulusu",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Cumhuriyetin Kuruluşu",
+    "category": "Cumhuriyet Dönemi",
+    "short_desc": "M.Ö. 509 yılında krallığın yıkılması ve aristokratik cumhuriyet rejiminin doğuşu.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "pon-savaslari",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Pön Savaşları",
+    "category": "Cumhuriyet Dönemi",
+    "short_desc": "Roma ile Kartaca arasında Akdeniz hakimiyeti için yapılan üç büyük ve yıkıcı savaş.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "cumhuriyetin-krizi-ve-ic-savaslar",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Cumhuriyetin Krizi ve İç Savaşlar",
+    "category": "Cumhuriyet Dönemi",
+    "short_desc": "Gracchus kardeşlerden Julius Caesar'ın diktatörlüğüne uzanan siyasi yozlaşma ve iç çatışmalar.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "augustus-ve-principatin-dogusu",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Augustus ve Principat'ın Doğuşu",
+    "category": "Erken İmparatorluk",
+    "short_desc": "M.Ö. 27 yılında ilk imparator Augustus'un tahta çıkışıyla monarşik cumhuriyet sentezi.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "pax-romana",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Pax Romana",
+    "category": "Erken İmparatorluk",
+    "short_desc": "İmparatorluk sınırları içinde yaklaşık iki yüzyıl süren altın barış ve istikrar dönemi.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "bes-iyi-imparator-donemi",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Beş İyi İmparator Dönemi",
+    "category": "Erken İmparatorluk",
+    "short_desc": "Nerva, Traianus, Hadrianus, Antoninus Pius ve Marcus Aurelius yönetiminde Roma'nın zirvesi.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "ucuncu-yuzyil-krizi",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Üçüncü Yüzyıl Krizi",
+    "category": "Kriz Dönemi",
+    "short_desc": "İstila, iç savaş, veba ve ekonomik çöküşle imparatorluğun neredeyse yıkılma noktasına gelmesi.",
+    "era_tag": "Kriz Dönemi"
+  },
+  {
+    "slug": "diocletianus-reformlari-ve-dominat",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Diocletianus Reformları ve Dominat",
+    "category": "Geç İmparatorluk",
+    "short_desc": "Tetrarşi (dörtlü yönetim) sistemi ve mutlak monarşi (Dominat) döneminin başlaması.",
+    "era_tag": "Geç İmparatorluk"
+  },
+  {
+    "slug": "hristiyanligin-devlet-dini-olmasi",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Hristiyanlığın Devlet Dini Olması",
+    "category": "Geç İmparatorluk",
+    "short_desc": "Konstantin'in din serbestisinden I. Theodosius'un Hristiyanlığı resmi din ilan etmesine uzanan süreç.",
+    "era_tag": "Geç İmparatorluk"
+  },
+  {
+    "slug": "bati-roma-nin-cokusu",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Batı Roma'nın Çöküşü",
+    "category": "Geç İmparatorluk",
+    "short_desc": "M.S. 476 yılında son imparator Romulus Augustulus'un tahttan indirilmesi ve antik çağın sonu.",
+    "era_tag": "Geç İmparatorluk"
+  },
+  {
+    "slug": "bizans-sureklilik",
+    "section": "zaman-cizelgesi",
+    "title_tr": "Bizans Sürekliliği",
+    "category": "Geç İmparatorluk",
+    "short_desc": "Doğu Roma İmparatorluğu'nun Konstantinopolis merkezli olarak Orta Çağ boyunca devam eden mirası.",
+    "era_tag": "Geç İmparatorluk"
+  },
+  {
+    "slug": "roma-panteonu-genel-bakis",
+    "section": "din-mitoloji",
+    "title_tr": "Roma Panteonu Genel Bakış",
+    "category": "Devlet Tanrıları",
+    "short_desc": "Roma dininin çok tanrılı yapısı, ritüelleri ve tanrıların toplumsal düzendeki rolleri.",
+    "era_tag": null
+  },
+  {
+    "slug": "jupiter",
+    "section": "din-mitoloji",
+    "title_tr": "Jüpiter",
+    "category": "Devlet Tanrıları",
+    "short_desc": "Roma panteonunun en yüce tanrısı, gökyüzü, şimşek ve devletin mutlak koruyucusu.",
+    "era_tag": null
+  },
+  {
+    "slug": "juno",
+    "section": "din-mitoloji",
+    "title_tr": "Juno",
+    "category": "Devlet Tanrıları",
+    "short_desc": "Jüpiter'in eşi, evlilik, doğum ve Roma kadınlarının baş koruyucu tanrıçası.",
+    "era_tag": null
+  },
+  {
+    "slug": "mars",
+    "section": "din-mitoloji",
+    "title_tr": "Mars",
+    "category": "Devlet Tanrıları",
+    "short_desc": "Savaş tanrısı ve Roma halkının efsanevi atası (Romulus ve Remus'un babası).",
+    "era_tag": null
+  },
+  {
+    "slug": "venus",
+    "section": "din-mitoloji",
+    "title_tr": "Venüs",
+    "category": "Devlet Tanrıları",
+    "short_desc": "Aşk, güzellik ve bereket tanrıçası; Caesar hanedanının efsanevi koruyucusu.",
+    "era_tag": null
+  },
+  {
+    "slug": "minerva",
+    "section": "din-mitoloji",
+    "title_tr": "Minerva",
+    "category": "Devlet Tanrıları",
+    "short_desc": "Bilgelik, zanaat, ticaret ve stratejik savaş tanrıçası; Capitoline üçlüsünün üyesi.",
+    "era_tag": null
+  },
+  {
+    "slug": "neptun",
+    "section": "din-mitoloji",
+    "title_tr": "Neptün",
+    "category": "Devlet Tanrıları",
+    "short_desc": "Denizlerin, depremlerin ve atların tanrısı; Roma denizciliğinin manevi hamisi.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-yunan-tanri-sentezi",
+    "section": "din-mitoloji",
+    "title_tr": "Roma-Yunan Tanrı Sentezi",
+    "category": "Dini Evrim",
+    "short_desc": "Yerel İtalik tanrıların Yunan mitolojisindeki karşılıklarıyla eşleştirilmesi ve asimilasyonu.",
+    "era_tag": null
+  },
+  {
+    "slug": "devlet-dini-ve-pontifex-maximus",
+    "section": "din-mitoloji",
+    "title_tr": "Devlet Dini ve Pontifex Maximus",
+    "category": "Rahiplikler",
+    "short_desc": "Roma devletinin resmi dini hiyerarşisi ve en yüksek rahip olan Pontifex Maximus makamı.",
+    "era_tag": null
+  },
+  {
+    "slug": "vesta-bakireleri",
+    "section": "din-mitoloji",
+    "title_tr": "Vesta Bakireleri",
+    "category": "Rahiplikler",
+    "short_desc": "Vesta Tapınağı'ndaki kutsal ateşi korumakla görevli, yüksek prestijli rahibeler topluluğu.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-da-kehanet-ve-augur",
+    "section": "din-mitoloji",
+    "title_tr": "Roma'da Kehanet ve Augur",
+    "category": "Dini Ritüeller",
+    "short_desc": "Kuşların uçuşundan ve kurban organlarından tanrıların iradesini okuma sanatı.",
+    "era_tag": null
+  },
+  {
+    "slug": "mithra-kultu",
+    "section": "din-mitoloji",
+    "title_tr": "Mithra Kültü",
+    "category": "Gizem Dinleri",
+    "short_desc": "Özellikle Roma askerleri arasında yayılan, Pers kökenli gizemli ve ezoterik inanç sistemi.",
+    "era_tag": null
+  },
+  {
+    "slug": "isis-kultu",
+    "section": "din-mitoloji",
+    "title_tr": "Isis Kültü",
+    "category": "Gizem Dinleri",
+    "short_desc": "Mısır kökenli tanrıça İsis'e tapınım; Roma'da geniş kitlelere ulaşan kurtuluş inancı.",
+    "era_tag": null
+  },
+  {
+    "slug": "hristiyanligin-yukselisi-ve-zulumler",
+    "section": "din-mitoloji",
+    "title_tr": "Hristiyanlığın Yükselişi ve Zulümler",
+    "category": "Dini Evrim",
+    "short_desc": "Tek tanrılı yeni inancın yayılması ve Roma devletinin uyguladığı sistematik baskılar.",
+    "era_tag": null
+  },
+  {
+    "slug": "konstantin-ve-milano-fermani",
+    "section": "din-mitoloji",
+    "title_tr": "Konstantin ve Milano Fermanı",
+    "category": "Dini Evrim",
+    "short_desc": "M.S. 313 yılında Hristiyanlığa din serbestisi getiren tarihi dönüm noktası.",
+    "era_tag": "Geç İmparatorluk"
+  },
+  {
+    "slug": "roma-toplumsal-siniflari",
+    "section": "kultur-toplum",
+    "title_tr": "Roma Toplumsal Sınıfları",
+    "category": "Toplumsal Yapı",
+    "short_desc": "Roma toplumunun hiyerarşik yapısı, haklar, sorumluluklar ve sınıfsal geçişler.",
+    "era_tag": null
+  },
+  {
+    "slug": "patrici-ve-plep-ayrimi",
+    "section": "kultur-toplum",
+    "title_tr": "Patrici ve Pleb Ayrımı",
+    "category": "Toplumsal Yapı",
+    "short_desc": "Soylu toprak sahipleri (Patriciler) ile halk tabakası (Plebler) arasındaki tarihi mücadele.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-da-kolelik-ve-azatlilar",
+    "section": "kultur-toplum",
+    "title_tr": "Roma'da Kölelik ve Azatlılar",
+    "category": "Toplumsal Yapı",
+    "short_desc": "Kölelerin hukuki statüsü, günlük yaşamları ve özgürlüğüne kavuşan azatlıların rolü.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-ailesi-ve-pater-familias",
+    "section": "kultur-toplum",
+    "title_tr": "Roma Ailesi ve Pater Familias",
+    "category": "Günlük Yaşam",
+    "short_desc": "Aile reisinin (Pater Familias) mutlak otoritesi altında şekillenen hane yapısı.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-da-kadinin-yeri",
+    "section": "kultur-toplum",
+    "title_tr": "Roma'da Kadının Yeri",
+    "category": "Günlük Yaşam",
+    "short_desc": "Roma kadınlarının hukuki hakları, toplumsal rolleri ve hane içindeki nüfuzları.",
+    "era_tag": null
+  },
+  {
+    "slug": "gladyator-oyunlari",
+    "section": "kultur-toplum",
+    "title_tr": "Gladyatör Oyunları",
+    "category": "Eğlence ve Spor",
+    "short_desc": "Amfitiyatrolarda düzenlenen, ölümüne dövüşler ve vahşi hayvan avlarından oluşan halk eğlencesi.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-da-araba-yarislari",
+    "section": "kultur-toplum",
+    "title_tr": "Roma'da Araba Yarışları",
+    "category": "Eğlence ve Spor",
+    "short_desc": "Circus Maximus'ta düzenlenen, yeşiller, maviler gibi takımların kıyasıya rekabet ettiği yarışlar.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-tiyatrosu",
+    "section": "kultur-toplum",
+    "title_tr": "Roma Tiyatrosu",
+    "category": "Eğlence ve Spor",
+    "short_desc": "Yunan tiyatrosundan esinlenen ama kendine has komedi ve trajedi türlerini geliştiren sahne sanatı.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-hamamlari-gunluk-yasam",
+    "section": "kultur-toplum",
+    "title_tr": "Roma Hamamları ve Günlük Yaşam",
+    "category": "Günlük Yaşam",
+    "short_desc": "Thermae adı verilen devasa hamamların temizlik, sosyalleşme ve spor merkezleri olarak rolü.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-mutfagi-ve-beslenme",
+    "section": "kultur-toplum",
+    "title_tr": "Roma Mutfağı ve Beslenme",
+    "category": "Günlük Yaşam",
+    "short_desc": "Sıradan halkın tahıl ağırlıklı beslenmesinden zenginlerin lüks ve egzotik şölenlerine uzanan mutfak kültürü.",
+    "era_tag": null
+  },
+  {
+    "slug": "latin-edebiyati-virgil",
+    "section": "kultur-toplum",
+    "title_tr": "Latin Edebiyatı: Virgil",
+    "category": "Edebiyat ve Felsefe",
+    "short_desc": "Roma'nın milli destanı Aeneis'i yazarak imparatorluğun kökenlerini yücelten şair.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "latin-edebiyati-ovidius",
+    "section": "kultur-toplum",
+    "title_tr": "Latin Edebiyatı: Ovidius",
+    "category": "Edebiyat ve Felsefe",
+    "short_desc": "Metamorphoses (Dönüşümler) eseriyle mitolojiyi şiirselleştiren, aşk ve sürgün şairi.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "latin-edebiyati-cicero",
+    "section": "kultur-toplum",
+    "title_tr": "Latin Edebiyatı: Cicero",
+    "category": "Edebiyat ve Felsefe",
+    "short_desc": "Hitabet sanatı, felsefi mektupları ve siyasi yazılarıyla Latin nesrini zirveye taşıyan devlet adamı.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "roma-mimarisi-kolezyum",
+    "section": "kultur-toplum",
+    "title_tr": "Roma Mimarisi: Kolezyum",
+    "category": "Sanat ve Mimari",
+    "short_desc": "Flavianus Amfitiyatrosu olarak bilinen, mühendislik harikası devasa taş ve beton arena.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "roma-mimarisi-pantheon",
+    "section": "kultur-toplum",
+    "title_tr": "Roma Mimarisi: Pantheon",
+    "category": "Sanat ve Mimari",
+    "short_desc": "Tüm tanrılara adanmış, dünyanın en büyük desteksiz beton kubbesine sahip tapınak.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "roma-muhendisligi-su-kemerleri-ve-yollar",
+    "section": "kultur-toplum",
+    "title_tr": "Roma Mühendisliği: Su Kemerleri ve Yollar",
+    "category": "Sanat ve Mimari",
+    "short_desc": "Şehirlere su taşıyan kemerler ve 'tüm yollar Roma'ya çıkar' sözünü doğuran askeri-ticari yollar.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-para-birimi-ve-nane",
+    "section": "ekonomi",
+    "title_tr": "Roma Para Birimi ve Darphaneler",
+    "category": "Finansal Yapı",
+    "short_desc": "Aureus, Denarius ve Sestertius gibi sikkelerin basımı, tedavülü ve propaganda aracı olarak kullanımı.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-ticaret-aglari",
+    "section": "ekonomi",
+    "title_tr": "Roma Ticaret Ağları",
+    "category": "Ticaret ve Üretim",
+    "short_desc": "Akdeniz'i bir iç göle dönüştüren, Hindistan ve Çin'e kadar uzanan küresel ticaret yolları.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-tarimi",
+    "section": "ekonomi",
+    "title_tr": "Roma Tarımı",
+    "category": "Ticaret ve Üretim",
+    "short_desc": "İmparatorluğun temel ekonomik direği olan tahıl, zeytinyağı ve şarap üretimi; latifundia çiftlikleri.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-da-vergilendirme",
+    "section": "ekonomi",
+    "title_tr": "Roma'da Vergilendirme",
+    "category": "Finansal Yapı",
+    "short_desc": "Eyaletlerden toplanan vergiler, vergi mültezimleri (publicani) ve devlet bütçesinin yönetimi.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-da-kolelik-ekonomisi",
+    "section": "ekonomi",
+    "title_tr": "Roma'da Kölelik Ekonomisi",
+    "category": "Ticaret ve Üretim",
+    "short_desc": "Savaş esirlerinin tarım, madencilik ve ev işlerinde ücretsiz iş gücü olarak ekonomik önemi.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-da-zanaat-ve-uretim",
+    "section": "ekonomi",
+    "title_tr": "Roma'da Zanaat ve Üretim",
+    "category": "Ticaret ve Üretim",
+    "short_desc": "Çömlekçilik, cam işçiliği, tekstil ve metalürji alanındaki atölyeler ve lonca benzeri yapılar.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-limanlari-ve-deniz-ticareti",
+    "section": "ekonomi",
+    "title_tr": "Roma Limanları ve Deniz Ticareti",
+    "category": "Ticaret ve Üretim",
+    "short_desc": "Ostia ve İskenderiye gibi devasa limanlar üzerinden yürütülen tahıl sevkiyatı ve deniz taşımacılığı.",
+    "era_tag": null
+  },
+  {
+    "slug": "uc-yuzyil-krizi-enflasyon",
+    "section": "ekonomi",
+    "title_tr": "Üçüncü Yüzyıl Krizi ve Enflasyon",
+    "category": "Ekonomik Krizler",
+    "short_desc": "Sikkelerin gümüş oranının düşürülmesi (devalüasyon) sonucu ortaya çıkan hiperenflasyon ve takas ekonomisi.",
+    "era_tag": "Kriz Dönemi"
+  },
+  {
+    "slug": "gec-imparatorluk-ekonomik-cokus",
+    "section": "ekonomi",
+    "title_tr": "Geç İmparatorluk ve Ekonomik Çöküş",
+    "category": "Ekonomik Krizler",
+    "short_desc": "Artan askeri harcamalar, nüfus azalması, ağır vergiler ve Batı'da ekonomik feodalleşme.",
+    "era_tag": "Geç İmparatorluk"
+  },
+  {
+    "slug": "roma-bankaciligi-ve-finans",
+    "section": "ekonomi",
+    "title_tr": "Roma Bankacılığı ve Finans",
+    "category": "Finansal Yapı",
+    "short_desc": "Argentarii adı verilen bankerler, kredi sistemleri, faiz oranları ve borç hukuku.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-krallik-donemi-yonetimi",
+    "section": "siyaset-hukuk",
+    "title_tr": "Roma Krallık Dönemi Yönetimi",
+    "category": "Siyasi Kurumlar",
+    "short_desc": "Kral (Rex), Senato (Senatus) ve halk meclislerinin (Comitia Curiata) ilk yönetim dengesi.",
+    "era_tag": "Krallık"
+  },
+  {
+    "slug": "roma-senatosu",
+    "section": "siyaset-hukuk",
+    "title_tr": "Roma Senatosu",
+    "category": "Siyasi Kurumlar",
+    "short_desc": "Cumhuriyetin ve İmparatorluğun en prestijli, danışma ve yasama gücüne sahip aristokratik meclisi.",
+    "era_tag": null
+  },
+  {
+    "slug": "konsul-ve-magistralar",
+    "section": "siyaset-hukuk",
+    "title_tr": "Konsül ve Magistralar",
+    "category": "Siyasi Kurumlar",
+    "short_desc": "Yürütme gücünü elinde tutan konsüller, praetorlar, aedilisler ve quaestorlar hiyerarşisi (Cursus Honorum).",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "oniki-levha-kanunlari",
+    "section": "siyaset-hukuk",
+    "title_tr": "Oniki Levha Kanunları",
+    "category": "Roma Hukuku",
+    "short_desc": "M.Ö. 451-450 yıllarında yazılı hale getirilen, Roma hukukunun temelini oluşturan ilk kanunlar.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "roma-cumhuriyeti-anayasal-yapisi",
+    "section": "siyaset-hukuk",
+    "title_tr": "Roma Cumhuriyeti Anayasal Yapısı",
+    "category": "Siyasi Kurumlar",
+    "short_desc": "Güçler ayrılığı, veto hakkı ve geçici diktatörlük makamını içeren yazısız anayasal düzen.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "julius-sezar",
+    "section": "siyaset-hukuk",
+    "title_tr": "Julius Caesar",
+    "category": "Önemli Figürler",
+    "short_desc": "Galya fatihi, diktatör ve cumhuriyetin yıkılıp imparatorluğa geçişini hazırlayan dahi lider.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "augustus",
+    "section": "siyaset-hukuk",
+    "title_tr": "Augustus",
+    "category": "Önemli Figürler",
+    "short_desc": "Roma'nın ilk imparatoru; cumhuriyet kurumlarını koruyarak mutlak monarşiyi kuran devlet adamı.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "traianus",
+    "section": "siyaset-hukuk",
+    "title_tr": "Traianus",
+    "category": "Önemli Figürler",
+    "short_desc": "Dacia ve Parthia fetihleriyle imparatorluğu en geniş coğrafi sınırlara ulaştıran asker-imparator.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "hadrianus",
+    "section": "siyaset-hukuk",
+    "title_tr": "Hadrianus",
+    "category": "Önemli Figürler",
+    "short_desc": "Sınırları sabitleyen (Hadrian Duvarı), sanata ve mimariye düşkün, Helen hayranı imparator.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "konstantin",
+    "section": "siyaset-hukuk",
+    "title_tr": "Konstantin",
+    "category": "Önemli Figürler",
+    "short_desc": "Başkenti Konstantinopolis'e taşıyan ve Hristiyanlığı himaye ederek dünyayı değiştiren imparator.",
+    "era_tag": "Geç İmparatorluk"
+  },
+  {
+    "slug": "iustinianus-ve-kanunlar",
+    "section": "siyaset-hukuk",
+    "title_tr": "Iustinianus ve Kanunlar",
+    "category": "Roma Hukuku",
+    "short_desc": "Corpus Juris Civilis'i derleterek Roma hukukunu sistemleştiren Doğu Roma imparatoru.",
+    "era_tag": "Geç İmparatorluk"
+  },
+  {
+    "slug": "roma-hukukunun-mirasi",
+    "section": "siyaset-hukuk",
+    "title_tr": "Roma Hukukunun Mirası",
+    "category": "Roma Hukuku",
+    "short_desc": "Kıta Avrupası hukuk sisteminin (Medeni Kanun) temelini oluşturan Roma hukuku kavramları.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-lejyon-yapisi",
+    "section": "askeri",
+    "title_tr": "Roma Lejyon Yapısı",
+    "category": "Askeri Teşkilat",
+    "short_desc": "Manipüler düzenden profesyonel kohort sistemine (Marius Reformları) lejyonların evrimi.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-ordusu-silah-ve-techizat",
+    "section": "askeri",
+    "title_tr": "Roma Ordusu Silah ve Teçhizat",
+    "category": "Askeri Teşkilat",
+    "short_desc": "Gladius (kılıç), Pilum (mızrak), Scutum (kalkan) ve Lorica Segmentata (zırh) gibi askeri donanımlar.",
+    "era_tag": null
+  },
+  {
+    "slug": "roma-savas-taktikleri",
+    "section": "askeri",
+    "title_tr": "Roma Savaş Taktikleri",
+    "category": "Savaş Sanatı",
+    "short_desc": "Testudo (kaplumbağa) düzeni, kuşatma mühendisliği ve savaş meydanındaki disiplinli manevralar.",
+    "era_tag": null
+  },
+  {
+    "slug": "pon-savaslari-hannibal",
+    "section": "askeri",
+    "title_tr": "Pön Savaşları ve Hannibal",
+    "category": "Ünlü Seferler",
+    "short_desc": "Kartacalı dahi general Hannibal'in Alpleri aşarak Roma'yı tehdit etmesi ve Scipio'nun zaferi.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "teutoburg-ormani-savasi",
+    "section": "askeri",
+    "title_tr": "Teutoburg Ormanı Savaşı",
+    "category": "Ünlü Seferler",
+    "short_desc": "M.S. 9 yılında üç Roma lejyonunun Cermen kabileleri tarafından pusuya düşürülüp yok edilmesi.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "roma-galya-fetihleri-sezar",
+    "section": "askeri",
+    "title_tr": "Roma'nın Galya Fetihleri",
+    "category": "Ünlü Seferler",
+    "short_desc": "Julius Caesar'ın askeri dehasını kanıtladığı ve Roma sınırlarını Ren Nehri'ne taşıdığı seferler.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "roma-ic-savaslari-ve-generaller",
+    "section": "askeri",
+    "title_tr": "Roma İç Savaşları ve Generaller",
+    "category": "Savaş Sanatı",
+    "short_desc": "Marius-Sulla, Caesar-Pompeius ve Octavianus-Antonius arasındaki lejyonların savaşı.",
+    "era_tag": "Cumhuriyet"
+  },
+  {
+    "slug": "pretorian-muhafizlari",
+    "section": "askeri",
+    "title_tr": "Pretorian Muhafızları",
+    "category": "Askeri Teşkilat",
+    "short_desc": "İmparatorun özel koruma birliği; zamanla imparatorları tahta çıkaran veya indiren siyasi güç.",
+    "era_tag": "Erken İmparatorluk"
+  },
+  {
+    "slug": "roma-donanmasi",
+    "section": "askeri",
+    "title_tr": "Roma Donanması",
+    "category": "Askeri Teşkilat",
+    "short_desc": "Akdeniz'deki korsanlığı bitiren ve deniz ticaret yollarının güvenliğini sağlayan Classis Romana.",
+    "era_tag": null
+  },
+  {
+    "slug": "ordu-ve-siyasi-guc-iliskisi",
+    "section": "askeri",
+    "title_tr": "Ordu ve Siyasi Güç İlişkisi",
+    "category": "Savaş Sanatı",
+    "short_desc": "Profesyonelleşen askerlerin devlete değil generallerine bağlılık duymasının siyasi sonuçları.",
+    "era_tag": null
+  }
+]
