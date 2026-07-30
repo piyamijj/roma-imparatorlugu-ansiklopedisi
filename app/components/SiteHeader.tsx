@@ -40,6 +40,7 @@ export default function SiteHeader() {
   const navLinks = NAV_SECTIONS.filter((section) => section.slug !== "anasayfa");
 
   return (
+    <>
     <header className="sticky top-0 z-50 w-full porphyry-surface border-b border-gold-700/40 shadow-lg backdrop-blur-md bg-opacity-95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         {/* Logo / Brand */}
@@ -106,9 +107,14 @@ export default function SiteHeader() {
           </button>
         </div>
       </div>
+    </header>
 
-      {/* Mobile Navigation Panel */}
-      <AnimatePresence>
+    {/* Mobile Navigation Panel — rendered as a SIBLING of <header>, not a
+        descendant. This is required because backdrop-blur on <header>
+        creates a new CSS containing block, which would otherwise trap a
+        `position: fixed` descendant inside the header's own small box
+        (causing the panel to render empty/clipped on real mobile browsers). */}
+    <AnimatePresence>
         {isOpen && (
           <motion.div
             initial={{ opacity: 0, y: -20 }}
@@ -153,7 +159,7 @@ export default function SiteHeader() {
             </div>
           </motion.div>
         )}
-      </AnimatePresence>
-    </header>
+    </AnimatePresence>
+    </>
   );
 }

@@ -85,7 +85,7 @@ export default function TopicContentView({
           initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-porphyry-900 tracking-wide leading-tight"
+          className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-porphyry-900 tracking-wide leading-tight w-full max-w-full break-words"
         >
           {title_tr}
         </motion.h1>

@@ -42,6 +42,14 @@
   --color-laurel-700: #2b402b;
 }
 
+/* Global overflow-x safeguard: prevents any accidental wide element
+   (long headlines, letter-spacing, animated transforms) from causing
+   horizontal scroll/cutoff on real mobile devices. */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 /* Base Body Styling with Fixed Marble Texture Background */
 body {
   background-color: var(--color-marble-100);

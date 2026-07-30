@@ -55,9 +55,9 @@ export default function HeroSection() {
   };
 
   return (
-    <div ref={containerRef} className="w-full flex flex-col">
+    <div ref={containerRef} className="w-full flex flex-col overflow-x-hidden">
       {/* 1. Cinematic Hero Section */}
-      <section className="relative min-h-[92vh] flex flex-col items-center justify-center overflow-hidden porphyry-surface px-4 sm:px-6 lg:px-8 py-20">
+      <section className="relative min-h-[92vh] w-full flex flex-col items-center justify-center overflow-hidden porphyry-surface px-4 sm:px-6 lg:px-8 py-20">
         {/* Parallax Background Layers */}
         <motion.div
           style={{ y: bgY }}
@@ -91,7 +91,7 @@ export default function HeroSection() {
         {/* Foreground Content */}
         <motion.div
           style={{ y: textY }}
-          className="relative z-10 max-w-4xl mx-auto flex flex-col items-center text-center space-y-8"
+          className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center text-center space-y-8 px-2"
         >
           {/* SPQR Banner */}
           <motion.div
@@ -107,7 +107,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-            className="inscription-text gold-foil-text animate-shimmer text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-wider leading-tight"
+            className="inscription-text gold-foil-text animate-shimmer text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-wide sm:tracking-wider leading-tight w-full max-w-full break-words"
           >
             ROMA İMPARATORLUĞU
           </motion.h1>

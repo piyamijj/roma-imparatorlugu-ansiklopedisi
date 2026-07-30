@@ -55,7 +55,7 @@ export default function SectionLandingPage({
             initial={{ opacity: 0, y: 15, filter: "blur(4px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="inscription-text text-3xl sm:text-4xl md:text-5xl font-bold text-marble-50 tracking-wider leading-tight"
+            className="inscription-text text-3xl sm:text-4xl md:text-5xl font-bold text-marble-50 tracking-wider leading-tight w-full max-w-full break-words"
           >
             {title}
           </motion.h1>
