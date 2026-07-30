@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, CircleCheckBig, Clock } from "lucide-react";
+import { ArrowRight, CheckCircle2, Clock } from "lucide-react";
 import { SectionSlug, TopicListEntry } from "@/lib/types";
 import { ColumnIcon, LaurelDividerRow } from "../roman/RomanMotifs";
 
@@ -131,7 +131,7 @@ export default function SectionLandingPage({
                         {/* Status Badge */}
                         {isReady ? (
                           <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-laurel-300/10 border border-laurel-300/20 text-laurel text-[9px] font-inscription font-bold tracking-wider uppercase">
-                            <CircleCheckBig className="w-2.5 h-2.5 text-laurel" />
+                            <CheckCircle2 className="w-2.5 h-2.5 text-laurel" />
                             HAZIR
                           </span>
                         ) : (

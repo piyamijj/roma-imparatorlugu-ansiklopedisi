@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Lightbulb, CircleAlert, Calendar, Users, BookOpen, Info } from "lucide-react";
+import { Lightbulb, AlertCircle, Calendar, Users, BookOpen, Info } from "lucide-react";
 import { GeneratedTopicFile } from "@/lib/types";
 import { LaurelDividerRow } from "../roman/RomanMotifs";
 
@@ -305,7 +305,7 @@ export default function TopicContentView({
           className="border-2 border-dashed border-bronze-500/30 bg-marble-50/50 rounded-xl p-6 sm:p-8 space-y-4"
         >
           <div className="flex items-center gap-2.5 text-porphyry-900">
-            <CircleAlert className="w-5 h-5 text-bronze-700 flex-shrink-0" />
+            <AlertCircle className="w-5 h-5 text-bronze-700 flex-shrink-0" />
             <h3 className="font-inscription text-sm font-bold tracking-widest uppercase">
               Tarihsel Tartışmalar ve Belirsizlikler
             </h3>

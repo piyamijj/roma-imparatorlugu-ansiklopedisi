@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Send, Info, TriangleAlert } from "lucide-react";
+import { Send, Info, AlertTriangle } from "lucide-react";
 import { AquilaIcon } from "../components/roman/RomanMotifs";
 
 interface Message {
@@ -188,7 +188,7 @@ function ChatInterface() {
                           : "bg-marble-50 border border-marble-300/30 text-ink rounded-tl-none"
                       }`}
                     >
-                      {msg.isError && <TriangleAlert size={16} className="text-red-600 mt-1 flex-shrink-0" />}
+                      {msg.isError && <AlertTriangle size={16} className="text-red-600 mt-1 flex-shrink-0" />}
                       <div className="space-y-2 whitespace-pre-wrap">
                         {parseMarkdownBold(msg.content)}
                       </div>
